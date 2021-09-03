@@ -1,0 +1,27 @@
+Op.05: řezání na automatické pile, čas jednoho řezu min 15s, max 20s, norma 147 kusů na hodinu, řeže se to ze 3 metrových tyčí. Přehození z tyče na tyč a opětovné zapnutí trvá min 3 minuty, max 7minut. Tyče jsou na 4 metrovém válečkovém dopravníku kam se nakládají ještěrkou. Cesta pro materiál s ještěrkou, vyzvednutí a dovezení materiálu na vozík k pile trvá min 8 minut, max 15 minut.  délka kusu 76,5+1, 3000 tyč, 150 zbytek tyče. (3000-150)/77,5=36,7
+=> 36 kusů z jedný tyče
+
+Op.15: čistý čas stroje za který kus vyrobí je 1 minuta 30 sekund, obsluha má maximálně 15 sekund na vyndání, ofouknutí a nabytí nového kusu. (Časy, jak často a co mají měřit ti pak pošlu v tom Excelu, tam je to všechno u sebe). Materiál je přiveze seřizovač k CNC stroji po zadání práce. Hledání + dovezení materiálu max 10 minut. Příprava nástrojů trvá minimálně 5 minut, maximálně 15 minut. Následuje osazení nožové hlavy nástroji min 5 minut, max 10 minut. Naměření nástrojů min 3 minuty, max 10 minut. Následuje projetí programu + příprava na hotovou výrobu min 3 minuty max 5 minut. Následuje kontrola rozměrů na pracovišti kontroly 5-10 minut. Po uvolnění kusu od kontroly je stroj připraven k výrobě dané operace. Operátor po zadání práce mění plátky přibližně po 70 kusech, min 30 sekund, max 3 minuty. Měření probíhá během obrábění dalšího kusu.
+
+Op.20: čistý čas stroje za který kus vyrobí je 1 minuta 41 sekund, obsluha má maximálně 15 sekund na vyndání, ofouknutí a nabytí nového kusu. Materiál (blablabla stejný jak u op 10) norma dané operace je 24 kusů na hodinu.
+
+Op.25: Obsluha brusek po zadání dané práce, vyzvedne materiál z meziskladu, min 5minut max 10 minut, následuje přebroušení brusných kotoučů (pouze v případě nerovností na kotoučích) a kontrola mašiny min 2 minuty, max 10 minut. Operátor vyrobí  98 kusů za hodinu s občasnou kontrolou brusných kotoučů. Díly ukládá do beden s proklady proti rzi a postřikuje antikorozním postřikem. =>jeden kus - 37 sekund brouseni
+
+Normy:
+Op.05        0.407
+Op.15.      2.155
+Op.20.      2.44
+Op.25.      0.61
+
+Spočítáš ji tak že dáš 60:(norma) a vyjde ti počet kusů na hodinu
+
+
+Ještě sem zapomněl napsat normu, ta je 27 kusů na hodinu a pokud chceš vědět vždycky minimum kolik se musí udělat, tak si spočítej normu na 8 hodin a splnit se musí minimálně na 90%
+
+
+
+
+K čištemu času kusu se vynásobí 1.22 a to je naší firmou stanoveny koeficient, který zahrnuje čas na výměnu plátků a pár pauz
+
+Jinak výměna jednoho plátků trvá max 20 sekund
+
